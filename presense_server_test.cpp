@@ -220,7 +220,7 @@ int ACE_TMAIN(int argc, ACE_TCHAR* argv[])
         ACE_DEBUG((LM_INFO, ACE_TEXT("ptalker registered\n")));
     }
 
-    for (int i=0; i < 10; i++) // will work 1 minute for test
+    for (int i=0; i < 60; i++) // will work 1 minute for test
     {
         // will wait 1 second
         ACE_Time_Value tv(1);
